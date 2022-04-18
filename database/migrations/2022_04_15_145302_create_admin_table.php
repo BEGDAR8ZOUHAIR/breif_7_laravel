@@ -13,9 +13,15 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::table('users', function (Blueprint $table) {
-Route::get('/register',[RegisterController::class,'index'] )->name('register');
-            $table->string('username');
+        Schema::create('admin', function (Blueprint $table) {
+            $table->id();
+            $table->string("name");
+
+            $table->string("address");
+
+            $table->string("mobile");
+            
+            $table->timestamps();
         });
     }
 
@@ -26,8 +32,6 @@ Route::get('/register',[RegisterController::class,'index'] )->name('register');
      */
     public function down()
     {
-        Schema::table('users', function (Blueprint $table) {
-            $table->dropColumn('usermane');
-        });
+        Schema::dropIfExists('admin');
     }
 };
