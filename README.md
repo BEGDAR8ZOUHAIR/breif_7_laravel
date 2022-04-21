@@ -1,4 +1,18 @@
+
+
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+
+
+
+presentation :
+
+https://docs.google.com/presentation/d/1n6QMAG2cEah7-Fm9K0gAp2rWB9kNNOv5M5p0lldmKUE/edit?usp=sharing
+
+
 
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
